@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@58a6e5d6c4a1d33f40389a5b64864d1e3fa4fe5c
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           # super-linter needs the full git history to get the
           # list of files that changed across commits
